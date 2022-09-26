@@ -1,20 +1,15 @@
 const auth = require('json-server-auth');
 const jsonServer = require('json-server');
-const express = require('express');
-const http = require('http');
 
-const app = express();
-const server = http.createServer(app);
-const io = require('socket.io')(server);
-
-global.io = io;
-
+const server = jsonServer.create();
 const router = jsonServer.router('db.json');
-
+const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 9001;
 
 // Bind the router db to the app
-app.db = router.db;
+server.db = router.db;
+
+server.use(middlewares);
 
 const rules = auth.rewriter({
     users: 640,
@@ -22,10 +17,8 @@ const rules = auth.rewriter({
     projects: 660,
 });
 
-app.use(rules);
-app.use(auth);
-app.use(router);
+server.use(rules);
+server.use(auth);
+server.use(router);
 
-server.listen(port, () => {
-    console.log('server is running');
-});
+server.listen(port);
