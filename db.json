@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$TGKYdnrMZkb7nXS0Ixz72uuTCoc2ICmPeD.zc1M0nAqNR26Yt3K0a",
+      "name": "Admin",
+      "id": 1
+    },
+    {
+      "email": "hacker@gmail.com",
+      "password": "$2a$10$2rC.evXLKNflVm3jHD8diOhs6sLHQLPVCzA60H4ov1i3KL4XgFeCS",
+      "name": "Hacker",
+      "id": 2
+    },
+    {
+      "email": "mathnayeem054@gmail.com",
+      "password": "$2a$10$/aNqsD32SSVoOczeIgrk4utT4QYWcfrgG.YvAphA5kzU6Gshjf1yq",
+      "name": "Md Nayeem Sheikh",
+      "id": 3
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$ieqnROGcfQsyczImoxb95evhjHbNodl/GUvheUUtjQ/VcWC1Enhjy",
+      "name": "test",
+      "id": 4
+    },
+    {
+      "email": "nrmnayeem@gmail.com",
+      "password": "$2a$10$4droh7Uzsv7Xk9eOWJ9m/OELn7bJEtq22my.saRTfhywoQXXh5Mqu",
+      "name": "Nayeem",
+      "id": 5
+    }
+  ],
+  "projects": [
+    {
+      "team": "nayeem",
+      "status": "review",
+      "color": "violet",
+      "title": "I am nayeem sheikh a front-end web developer",
+      "email": "admin@gmail.com",
+      "date": 1663923149696,
+      "id": 4
+    },
+    {
+      "team": "web dev",
+      "status": "backlog",
+      "color": "orange",
+      "title": "am a developer",
+      "email": "admin@gmail.com",
+      "date": 1663923407482,
+      "id": 6
+    },
+    {
+      "team": "adobe",
+      "status": "ready",
+      "color": "green",
+      "title": "new team",
+      "email": "admin@gmail.com",
+      "date": 1664140642617,
+      "id": 7
+    },
+    {
+      "team": "nayeem",
+      "status": "backlog",
+      "color": "violet",
+      "title": "sheikh",
+      "email": "admin@gmail.com",
+      "date": 1664209340469,
+      "id": 8
+    },
+    {
+      "team": "adobe",
+      "status": "doing",
+      "color": "green",
+      "title": "added done",
+      "email": "admin@gmail.com",
+      "date": 1664209517946,
+      "id": 9
+    },
+    {
+      "team": "web dev",
+      "status": "ready",
+      "color": "orange",
+      "title": "nayeem sheikh is not a developer",
+      "email": "admin@gmail.com",
+      "date": 1664215923414,
+      "id": 10
+    },
+    {
+      "team": "nayeem",
+      "status": "backlog",
+      "color": "violet",
+      "title": "are you sure??",
+      "email": "admin@gmail.com",
+      "date": 1664220033455,
+      "id": 11
+    },
+    {
+      "team": "adobe",
+      "status": "backlog",
+      "color": "green",
+      "title": "best editing apps",
+      "email": "admin@gmail.com",
+      "date": 1664220117551,
+      "id": 12
+    }
+  ],
+  "teams": [
+    {
+      "team": "hello",
+      "title": "there was wrong!",
+      "color": "red",
+      "email": "admin@gmail.com",
+      "date": 1663939865416,
+      "members": [
+        {
+          "email": "admin@gmail.com",
+          "name": "Admin",
+          "id": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "team": "hello",
+      "title": "there was wrong!",
+      "color": "red",
+      "email": "hacker@gmail.com",
+      "date": 1663939865416,
+      "members": [
+        {
+          "email": "hacker@gmail.com",
+          "name": "Hacker",
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "team": "sreenath",
+      "title": "ami kisu kori nai",
+      "color": "yellow",
+      "email": "admin@gmail.com",
+      "date": 1663946514719,
+      "members": [
+        {
+          "email": "admin@gmail.com",
+          "name": "Admin",
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "team": "web dev",
+      "title": "gcusAGDFjcvgdsujfpgisurdeg",
+      "color": "orange",
+      "email": "hacker@gmail.com",
+      "date": 1663946689811,
+      "members": [
+        {
+          "email": "hacker@gmail.com",
+          "name": "Hacker",
+          "id": 2
+        },
+        {
+          "email": "admin@gmail.com",
+          "password": "$2a$10$TGKYdnrMZkb7nXS0Ixz72uuTCoc2ICmPeD.zc1M0nAqNR26Yt3K0a",
+          "name": "Admin",
+          "id": 1
+        },
+        {
+          "email": "mathnayeem054@gmail.com",
+          "password": "$2a$10$/aNqsD32SSVoOczeIgrk4utT4QYWcfrgG.YvAphA5kzU6Gshjf1yq",
+          "name": "Md Nayeem Sheikh",
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "team": "nayeem",
+      "title": "ever green projects",
+      "color": "violet",
+      "email": "admin@gmail.com",
+      "date": 1663951565993,
+      "members": [
+        {
+          "email": "admin@gmail.com",
+          "name": "Admin",
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "team": "design",
+      "title": "we are a team",
+      "color": "teal",
+      "email": "admin@gmail.com",
+      "date": 1663950539252,
+      "members": [
+        {
+          "email": "admin@gmail.com",
+          "name": "Admin",
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "team": "new",
+      "title": "hello",
+      "color": "red",
+      "email": "admin@gmail.com",
+      "date": 1663950902978,
+      "members": [
+        {
+          "email": "admin@gmail.com",
+          "name": "Admin",
+          "id": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "team": "adobe",
+      "title": "best designers ",
+      "color": "green",
+      "email": "admin@gmail.com",
+      "date": 1664138788017,
+      "members": [
+        {
+          "email": "admin@gmail.com",
+          "name": "Admin",
+          "id": 1
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
