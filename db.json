@@ -137,48 +137,6 @@
       "id": 2
     },
     {
-      "team": "sreenath",
-      "title": "ami kisu kori nai",
-      "color": "yellow",
-      "email": "admin@gmail.com",
-      "date": 1663946514719,
-      "members": [
-        {
-          "email": "admin@gmail.com",
-          "name": "Admin",
-          "id": 1
-        }
-      ],
-      "id": 3
-    },
-    {
-      "team": "web dev",
-      "title": "gcusAGDFjcvgdsujfpgisurdeg",
-      "color": "orange",
-      "email": "hacker@gmail.com",
-      "date": 1663946689811,
-      "members": [
-        {
-          "email": "hacker@gmail.com",
-          "name": "Hacker",
-          "id": 2
-        },
-        {
-          "email": "admin@gmail.com",
-          "password": "$2a$10$TGKYdnrMZkb7nXS0Ixz72uuTCoc2ICmPeD.zc1M0nAqNR26Yt3K0a",
-          "name": "Admin",
-          "id": 1
-        },
-        {
-          "email": "mathnayeem054@gmail.com",
-          "password": "$2a$10$/aNqsD32SSVoOczeIgrk4utT4QYWcfrgG.YvAphA5kzU6Gshjf1yq",
-          "name": "Md Nayeem Sheikh",
-          "id": 3
-        }
-      ],
-      "id": 4
-    },
-    {
       "team": "nayeem",
       "title": "ever green projects",
       "color": "violet",
